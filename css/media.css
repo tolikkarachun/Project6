@@ -1,0 +1,139 @@
+@media screen and (max-width: 1400px) {
+  .how__container {
+    padding-left: 25px;
+  }
+
+  .story__container {
+    padding: 100px 0;
+  }
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .welcome__img {
+    display: contents;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .welcome__img,
+  .welcome__img img {
+    width: 100%;
+  }
+  .welcome__container {
+    flex-direction: column-reverse;
+  }
+  .welcome__title,
+  .welcome__desc {
+    max-width: 100%;
+  }
+  .welcome {
+    margin-bottom: 100px;
+  }
+}
+@media screen and (max-width: 1205px) {
+  .header {
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    background: var(--white);
+  }
+  .header__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .header__btn {
+    display: none;
+  }
+  .how {
+    margin-bottom: 50px;
+  }
+  .how-info {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .how-info__slogan,
+  .how-info__desc,
+  .story__title,
+  .story__desc {
+    max-width: 100%;
+  }
+  .how-step {
+    grid-template-columns: 1fr 1fr;
+  }
+  .how-step__img img {
+    width: 100%;
+  }
+  .story {
+    padding: 50px 20px;
+  }
+  .story__container {
+    flex-direction: column;
+  }
+  .product__btn {
+    margin-bottom: 20px;
+  }
+  .story__img {
+    padding-top: 30px;
+  }
+  .story__img img {
+    width: 100%;
+  }
+  .product__container {
+    flex-direction: column-reverse;
+  }
+  .product__slogan,
+  .product__desc {
+    max-width: 100%;
+  }
+  .product__img {
+    padding-left: 0;
+  }
+  .product__img img {
+    width: 100%;
+  }
+  .footer__container {
+    flex-direction: column;
+    gap: 80px;
+  }
+  .footer__ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  main {
+    padding-top: 90px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #burger {
+    display: inline-block;
+  }
+  .header__ul {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    background: var(--color-primary);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-120%);
+    transition: .2s all ease-in-out;
+  }
+  .header__ul._active {
+    transform: translateX(0);
+  }
+  .header__a {
+    font-size: 25px;
+    color: var(--white);
+  }
+}
+@media screen and (max-width: 576px) {
+  .how-step {
+    grid-template-columns: 1fr;
+  }
+}

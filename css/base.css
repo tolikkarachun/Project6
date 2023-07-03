@@ -1,0 +1,41 @@
+*,
+*::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+html,
+body {
+  min-height: 100%;
+}
+:root {
+  --font-main: "Lato", sans-serif;
+  --font-add: "Poppins", sans-serif;
+
+  /* const */
+  --white: #fff;
+  --black: #000;
+
+  /* brands */
+  --color-primary: #01996d;
+  --color-text-first: #484848;
+  --color-text-second: #292929;
+  --color-text-third: #ffff;
+  --color-text-four: #424242;
+  --color-fon: #245852;
+  --btn-radius: 4px;
+}
+body {
+  font-family: var(--font-main);
+}
